@@ -1,7 +1,48 @@
+root: {
+    color--red: #E6563B
+    color--orange: #EB9D3A
+    color--green: #7CB06C
+    color--aqua: #00ABA9
+    color--gray-light: #F0F0F0
+    color--gray-dark: #E6E6E6
+
+
+}
+
 .card {
     width: 100%;
 }
 
+
+.circle {
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    border: white solid .5em;
+    display: inline-block;
+    margin: .5em .5em;
+}
+.circle-red {
+    background-color: #E6563B;
+}
+.circle-yellow {
+    background-color: #EB9D3A;
+}
+.circle-green {
+    background-color: #7CB06C;
+}
+.circle-blue {
+    background-color: #00ABA9;
+}
+.circle-row {
+    text-align: center;
+    color: white;
+}
+.circle-word{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
 
 @media screen and (min-width: 768px) {
 {
