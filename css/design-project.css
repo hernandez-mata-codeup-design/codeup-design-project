@@ -1,26 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton&display=swap');
 body {
+    font-family:"anton","abel", san-serif;
     background-color: #F0F0F0;
     text-align: center;}
 * .h {
     font-family: 'Anton', sans-serif;
 }
 
-:root {
-    --color-red: #E6563B;
-   --color-orange: #EB9D3A;
-    --color-green: #7CB06C;
-    --color-aqua: #00ABA9;
-    --color-gray-light: #F0F0F0;
-    --color-gray-dark: #E6E6E6;
-}
-
-h4{
-    text-decoration-color: black;
-}
-.card {
-    width: 100%;
-}
 
 
 .circle {
@@ -28,24 +14,23 @@ h4{
     width: 105px;
     height: 105px;
     border: white solid .5em;
-    display: inline-block;
-    margin: .5em .5em;
+    display: flex;
     text-align: center;
     justify-content: center;
-
+    align-items: center;
 
 }
-.circles-mall {
+
+.circlesmall {
     border-radius: 50%;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     display: inline-block;
-    margin: .5em .5em;
-    text-decoration-color: black;
-}
-.col-xs-6{
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+
 .circle-red {
     background-color: #E6563B;
 }
@@ -62,43 +47,8 @@ h4{
     text-align: center;
     color: white;
 }
-.circle-word{
-    text-align: center;
-    font-weight: bold;
-}
 
-.logo-img {
-   width: 105px;
-    height:105px;
-}
-div>.circle {
 
-}
-.text-centered{
-    text-align: center;
-    margin-top: 1em;
-}
 
-/* Xtra-Small Screens */
-@media (min-width: 450px) {
-}
-/* Small Screens */
-@media (min-width: 576px) {
-
-}
-
-/* Medium Screens */
-@media (min-width: 768px) {
-
-}
-
-/* Large Screens */
-@media (min-width: 992px) {
-}
-
-/* Extra Large devices*/
-@media (min-width: 1200px){
-
-}
 
 
