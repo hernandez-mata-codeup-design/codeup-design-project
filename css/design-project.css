@@ -2,22 +2,21 @@
 body {
     background-color: #F0F0F0;
     text-align: center;}
-*h {
+* .h {
     font-family: 'Anton', sans-serif;
 }
 
-root: {
-    color--red: #E6563B
-    color--orange: #EB9D3A
-    color--green: #7CB06C
-    color--aqua: #00ABA9
-    color--gray-light: #F0F0F0
-    color--gray-dark: #E6E6E6
+:root {
+    --color-red: #E6563B;
+   --color-orange: #EB9D3A;
+    --color-green: #7CB06C;
+    --color-aqua: #00ABA9;
+    --color-gray-light: #F0F0F0;
+    --color-gray-dark: #E6E6E6;
 }
 
 h4{
-    text-decoration-color: black
-;
+    text-decoration-color: black;
 }
 .card {
     width: 100%;
@@ -36,7 +35,7 @@ h4{
 
 
 }
-.circlesmall {
+.circles-mall {
     border-radius: 50%;
     width: 18px;
     height: 18px;
@@ -48,7 +47,7 @@ h4{
     text-align: center;
 }
 .circle-red {
-    background-color: #E6563B;;
+    background-color: #E6563B;
 }
 .circle-yellow {
     background-color: #EB9D3A;
@@ -69,7 +68,7 @@ h4{
 }
 
 .logo-img {
-   width: 105px ;
+   width: 105px;
     height:105px;
 }
 div>.circle {
@@ -79,9 +78,6 @@ div>.circle {
     text-align: center;
     margin-top: 1em;
 }
-
-
-
 
 /* Xtra-Small Screens */
 @media (min-width: 450px) {
@@ -105,27 +101,4 @@ div>.circle {
 
 }
 
-One
-Two
-Three
-Four
-Five
-Six
-.box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px 2em;
-}
 
-.box :first-child {
-    align-self: center;
-}
-
-<div class="box">
-<div>One</div>
-<div>Two</div>
-<div>Three</div>
-<div>Four</div>
-<div>Five</div>
-<div>Six</div>
-</div>
