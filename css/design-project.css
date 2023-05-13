@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton&display=swap');
 body {
-    font-family:"anton","abel", san-serif;
     background-color: #F0F0F0;
-    text-align: center;}
-* .h {
-    font-family: 'Anton', sans-serif;
+    text-align: center;
 }
-
-
+.main-container {
+    background-color: #F0F0F0;
+}
+p, table, li, ul, a {
+    font-family: 'abel', sans-serif;
+}
+h1, h2 {
+    font-family: 'anton', sans-serif;
+}
 
 .circle {
     border-radius: 50%;
