@@ -174,9 +174,6 @@ onside side-info h4 {
 }
 
 @media screen and (max-width: 767px){
-    .divided-section{
-        display: none;
-    }
     .large-circle-overall{
         width: 20em;
     }
@@ -186,7 +183,11 @@ onside side-info h4 {
         justify-content: center;
     }
 }
-
+@media screen and (max-width: 991px){
+    .divided-section{
+        display: none;
+    }
+}
 @media screen and (min-width:768px) {
 
 
