@@ -177,8 +177,14 @@ onside side-info h4 {
     margin-right: .3em;
 }
 
+@media screen and (max-width: 991px){
+    .divided-section{
+        display: none;
+    }
+}
 
 @media screen and (min-width:768px) {
+
 
     hr {
         display: block;
