@@ -87,11 +87,7 @@ hr {
 
 .blue {
     background: #00ABA9;
-}
 
-
-.smaller-gray-font {
-    text-transform: uppercase;
 }
 main side-info img {
     width: 100%;
@@ -221,7 +217,7 @@ onside side-info h4 {
     }
 
     main>section>.smaller-gray-font, onside>.smaller-gray-font {
-        text-align: left;
+        text-align: center;
     }
 
     onside side-info h4 {
@@ -236,7 +232,6 @@ onside side-info h4 {
     }
 
     .overall-container {
-        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 2em;
         grid-template-areas:
                 "nav nav nav"
