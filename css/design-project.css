@@ -173,9 +173,17 @@ onside side-info h4 {
     margin-right: .3em;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 767px){
     .divided-section{
         display: none;
+    }
+    .large-circle-overall{
+        width: 20em;
+    }
+    .center-large-circles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -247,4 +255,13 @@ onside side-info h4 {
 
 @media screen and (min-width:1200px) {
 
+}
+
+.hate-these-circles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    box-sizing:border-box;
+    margin: 2em
+    width: 100%
 }
