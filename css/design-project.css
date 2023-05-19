@@ -261,8 +261,8 @@ onside side-info h4 {
 .hate-these-circles{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
     box-sizing:border-box;
-    margin: 2em
+    margin: 2em;
     width: 100%
 }
